@@ -1,0 +1,11 @@
+#Eric_ex1
+import numpy as np
+import matplotlib.pyplot as plt
+d=[]
+p=6
+N = 10**p
+for i in range(N):
+  theta = np.random.randint(1,6,size=10)
+  d.append(np.sum(theta))
+counts, bins = np.histogram(d,bins=40)
+plt.stairs(counts, bins)
