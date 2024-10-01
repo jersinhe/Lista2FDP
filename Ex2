@@ -1,0 +1,11 @@
+#Eric_ex2
+n=np.linspace(1,7,7,dtype=int)
+aproximaçoes=[]
+for m in (n):
+  t=10**m
+  x=np.random.uniform(-1,1,t)
+  y=np.random.uniform(-1,1,t)
+  area=np.sum(x**2+y**2<=1)
+  appr_pi=(area/t)*4
+  aproximaçoes.append(appr_pi)
+aproximaçoes
