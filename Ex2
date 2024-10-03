@@ -1,5 +1,8 @@
 #Eric_ex2
-n=np.linspace(1,7,7,dtype=int)
+import numpy as np
+import matplotlib.pyplot as plt
+p=7
+n=np.linspace(1,p,20,dtype=int)
 aproximaçoes=[]
 for m in (n):
   t=10**m
@@ -8,4 +11,7 @@ for m in (n):
   area=np.sum(x**2+y**2<=1)
   appr_pi=(area/t)*4
   aproximaçoes.append(appr_pi)
-aproximaçoes
+print(aproximaçoes)
+plt.plot(n,aproximaçoes,marker="_")
+plt.xscale("log")
+plt.yscale("log")
