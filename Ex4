@@ -1,0 +1,12 @@
+#Eric_Ex4
+Considerar as funções 푓 (푥) = 1 + 1
+2 sin3(2 푥) e 푔(푥) = 3 + 1
+2 cos5(3 푥)
+no intervalor [0, 2휋].
+I Plotar as funções.
+I Usando uma tabela de integrais ou algum programa para
+cálculo simbólico (p.e., Mathematica) calcular a área entre as
+duas curvas.
+I Calcular com um método Monte Carlo a área entre as duas
+curvas e comparar com o item anterior. O programa dever plotar
+os pontos que caíram fora e dentro da região.
